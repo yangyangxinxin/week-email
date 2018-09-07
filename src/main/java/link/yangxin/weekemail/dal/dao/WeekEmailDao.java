@@ -1,4 +1,4 @@
-package link.yangxin.weekemail;
+package link.yangxin.weekemail.dal.dao;
 
 import link.yangxin.weekemail.dal.entity.WeekEmail;
 import org.springframework.data.jpa.repository.JpaRepository;

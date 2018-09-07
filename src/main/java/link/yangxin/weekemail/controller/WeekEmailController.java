@@ -24,7 +24,7 @@ public class WeekEmailController {
 
     @PostMapping("/send")
     @ResponseBody
-    public Object send(List<String> contents) {
+    public Object send(List<String> thisWeekContent,List<String> nextWeekContent) {
         return "success";
     }
 

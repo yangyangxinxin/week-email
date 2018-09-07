@@ -20,10 +20,6 @@ public class WeekEmail {
 
     private Date createTime;
 
-    private Date successTime;
-
-    private Integer status;
-
     public Long getId() {
         return id;
     }
@@ -48,19 +44,4 @@ public class WeekEmail {
         this.createTime = createTime;
     }
 
-    public Date getSuccessTime() {
-        return successTime;
-    }
-
-    public void setSuccessTime(Date successTime) {
-        this.successTime = successTime;
-    }
-
-    public Integer getStatus() {
-        return status;
-    }
-
-    public void setStatus(Integer status) {
-        this.status = status;
-    }
 }
