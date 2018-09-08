@@ -29,7 +29,7 @@ public class EmailConfig {
         emailClient.setPassword(password);
         emailClient.setUsername(username);
         emailClient.setProtocol("smtp");
-        emailClient.setPort(587);
+        emailClient.setPort(25);
         return emailClient;
     }
 

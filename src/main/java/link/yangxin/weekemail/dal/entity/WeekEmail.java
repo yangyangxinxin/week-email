@@ -1,5 +1,6 @@
 package link.yangxin.weekemail.dal.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -16,6 +17,8 @@ public class WeekEmail {
     @GeneratedValue
     private Long id;
 
+
+    @Column(columnDefinition = "longtext")
     private String content;
 
     private Date createTime;
