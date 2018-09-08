@@ -60,11 +60,11 @@ public class WeekEmailService {
         map.put("nextWeek", nextWeekContent);
         String html = freemarkerTemplateParser.parseTemplate("week_template.ftl", map);
 
-        WeekEmail weekEmail = new WeekEmail();
+       /* WeekEmail weekEmail = new WeekEmail();
         weekEmail.setContent(html);
         weekEmail.setCreateTime(new Date());
 
-        weekEmailDao.save(weekEmail);
+        weekEmailDao.save(weekEmail);*/
 
         emailSender.send(EmailMessage.create(html).to(to).cc(cc,",").subject(subject));
 

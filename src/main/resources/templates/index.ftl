@@ -20,10 +20,11 @@
 <header class="ui-header ui-header-positive ui-border-b">
     <i class="ui-icon-return" onclick="history.back()"></i><h1>发送周报</h1><button class="ui-btn" id="send">发送</button>
 </header>
-<form>
+
 <section class="ui-container">
 
     <section id="form">
+        <form>
         <div class="demo-item">
             <p class="demo-desc">本周工作</p>
             <div id="thisWeekDiv">
@@ -70,8 +71,9 @@
         <div class="demo">
             <button class="ui-btn-lg-nowhole" id="addNext" type="button">添加</button>
         </div>
+        </form>
     </section>
 </section>
-</form>
+
 </body>
 </html>
